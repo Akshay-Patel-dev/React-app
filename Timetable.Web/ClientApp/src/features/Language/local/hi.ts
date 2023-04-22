@@ -1,0 +1,23 @@
+export default {
+    sidebar_main: 'ראשי',
+    sidebar_eventManagement: 'ניהול אירועים',
+    sidebar_coveragePrediction: 'חיזוי כיסוי',
+    sidebar_dailyView: 'תצוגה יומית',
+    sidebar_dailySummary: 'סיכום יומי',
+    sidebar_dailyManagement: 'ניהול יומי',
+    sidebar_viewCoverage: 'צפייה בכיסוי',
+    sidebar_availability: 'זמינות',
+    sidebar_weekly: 'שבועי',
+    sidebar_whoIsWorkingNow: 'מי עובד כעת',
+    sidebar_editingTemplates: 'עריכת תבניות',
+    sidebar_editingShifts: 'עריכת משמרות',
+    sidebar_presence: 'נוכחות',
+    sidebar_tips: 'טיפים',
+    sidebar_working: 'עובד',
+    sidebar_requests: 'בקשות',
+    sidebar_messageBoard: 'לוח הודעות',
+    sidebar_personalInformation: 'מידע אישי',
+    sidebar_definitions: 'הגדרות',
+    sidebar_reports: 'דוחות',
+    sidebar_variousPlace: 'מקומות שונים'
+    };

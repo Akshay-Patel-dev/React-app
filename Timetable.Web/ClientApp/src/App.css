@@ -1,0 +1,34 @@
+a {
+    color: #0366d6;
+  }
+  
+  code {
+    color: #E01A76;
+  }
+
+  
+
+.appcomponent{
+    direction: rtl;
+    text-align: right;
+  }
+
+  
+
+.btn-primary {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+  }
+  
+  .main-container {
+    display: flex;
+  }
+  
+  
+  .title {
+    font-size: 3rem;
+    display: grid;
+    place-items: center;
+  }
+  

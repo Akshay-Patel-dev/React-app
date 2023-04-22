@@ -1,5 +1,7 @@
 import { Action, Reducer } from 'redux';
-import { AppThunkAction } from './';
+
+
+
 
 // -----------------
 // STATE - This defines the type of data maintained in the Redux store.
@@ -41,7 +43,7 @@ type KnownAction = RequestWeatherForecastsAction | ReceiveWeatherForecastsAction
 // They don't directly mutate state, but they can have external side-effects (such as loading data).
 
 export const actionCreators = {
-    requestWeatherForecasts: (startDateIndex: number): AppThunkAction<KnownAction> => (dispatch, getState) => {
+    requestWeatherForecasts: (startDateIndex: number): any => (dispatch:any, getState:any) => {
         // Only load data if it's something we don't already have (and are not already loading)
         const appState = getState();
         if (appState && appState.weatherForecasts && startDateIndex !== appState.weatherForecasts.startDateIndex) {
